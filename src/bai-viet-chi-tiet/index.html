@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết chi tiết</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon-bee.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="../Header-Footer/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- --header-- -->
+        <header class="header h-container">
+
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../trang-chu/index.html">
+                        <img src="../img/logobee.png" alt="">
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_menu_list_item">
+                            <a href="../trang-chu/index.html" class="nav_link font-main" >Trang Chủ</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../thi-truong/index.html" class="nav_link font-main" >Thị Trường</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../du-an/index.html" class="nav_link font-main" >Dự Án</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../huong-dan/index.html" class="nav_link font-main" >Hướng Dẫn</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../lien-he/index.html" class="nav_link font-main" >Liên Hệ</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <button class="nav__cta__btn font-main">Đăng Nhập/Đăng Ký</button>
+                        </li>
+                    </ul>
+                </div>
+    
+                <button class="nav_toggle_btn" id="nav_toggle">
+                    <i id="bx-sm" class='bx bx-menu bx-sm'></i>
+                </button>
+            </nav>
+        </header>
+        
+        <!-- main -->
+        <main>
+            <div class="content">
+                <div class="game-detail w-container">
+                    <div class="game-content">
+                        <div class="game-description">
+                            <div class="slide-show">
+                                <div class="mySlides fade">
+                                    <img src="../img/banner-2-3.png" style="width:100%">
+                                </div>
+                                <div class="mySlides fade">
+                                    <img src="../img/banner-2-4.png" style="width:100%">
+                                </div>
+                            </div>
+                            <div class="slide-image-icon">
+                                <div class="slide-item" onclick="changeImage(0)">
+                                    <img src="../img/banner-2-3.png" style="width:100%">
+                                </div>
+                                <div class="slide-item" onclick="changeImage(1)">
+                                    <img src="../img/banner-2-4.png" style="width:100%">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h2>Một trình mô phỏng canh tác ông trùm chơi và kiếm tiền cạnh tranh.</h2>
+                                <div class="description-detail">
+                                    <h3>Giới thiệu về trò chơi</h3>
+                                    <p>Dễ chơi, khó thành thạo. Chọn địa hình phù hợp để làm cơ sở cho cuộc cách mạng công nghiệp của bạn. Hãy lựa chọn một cách khôn ngoan, vì điều này sẽ xác định các loại tài nguyên và cơ hội sản xuất có sẵn cho bạn. Đảm bảo chăm sóc căn cứ của bạn để tăng điểm và leo hạng. Vào cuối mỗi giải đấu, cuộc thi sẽ được thiết lập lại, vì vậy đừng lo lắng nếu bạn làm sai trong lần đầu tiên!</p>
+                                </div>
+                                <div class="description-detail">
+                                    <h3>Đặc trưng</h3>
+                                    <p>Chơi và kiếm tiền - Chuyển đổi điểm số và thời gian của bạn thành phần thưởng hữu hình (khi Beta bắt đầu). Niềm vui gây nghiện sang một bên, không một ngày chơi nào sẽ bị lãng phí thời gian.
+                                        Nếu nó là của bạn, nó sẽ mãi là của bạn - Bạn đã làm việc chăm chỉ để xây dựng trang trại nghĩa trang gọn gàng đó trong suốt hai ngày và giờ đây nó là của bạn để ở lại… mãi mãi!
+                                        Quy tắc tháo vát! - Vượt qua đối thủ của bạn bằng chiến lược tốt nhất và trở thành bậc thầy của Moonville.</p>
+                                </div>
+                                <div class="description-detail">
+                                    <h3>Xây dựng, nâng cấp và kiếm tiền!</h3>
+                                    <p>Xem ngôi làng của bạn phát triển và hưng thịnh khi bạn thăng hạng. Bạn có thể đưa ra chiến lược tốt nhất và vượt trội so với đối thủ của mình không?</p>
+                                </div>
+                                <div class="description-detail">
+                                    <h3>Một kinh nghiệm bổ ích</h3>
+                                    <p>Sau khi bạn tìm ra quy trình sản xuất tối ưu, trò chơi sẽ bắt đầu mang lại phần thưởng cho tất cả công việc khó khăn của bạn. Bạn có tò mò để sản xuất ra một mẻ Mứt Starberry khó như thế nào không? Thế còn Moonsteel thì sao? Nó chắc chắn không thể khó như vậy, phải không?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game-information">
+                            <div class="game-information-details">
+                                <div class="info-item">
+                                    <span>Nhà phát triển</span>
+                                    <b>LAZYBEE</b>
+                                </div>
+                                <div class="info-item">
+                                    <span>Nền tảng</span>
+                                    <b>WEB,IOS,ANDROID</b>
+                                </div>
+                                <div class="info-item">
+                                    <span>Thể Loại</span>
+                                    <b>Kết nối - Học tập</b>
+                                </div>
+                                <div class="info-item">
+                                    <span>Trạng thái</span>
+                                    <b>Sắp ra mắt</b>
+                                </div>
+                                <div class="btn-action-item twitter">
+                                    <span><i class="fa-brands fa-twitter"></i> TWITTER</span>
+                                </div>
+                                <div class="btn-action-item discord">
+                                    <span><i class="fa-brands fa-discord"></i> JOIN DISCORD</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resignter">
+                        <div class="form">
+                            <h2>Trở thành nhân vật #1000</h2>
+                            <p>Để lại email ngay lúc này, trước khi đặc quyền dành cho thành viên đăng ký sớm kết thúc.</p>
+                            <form>
+                                <input type="email" name="email" placeholder="Email của bạn">
+                                <button type="submit" class="btn-hover">Gửi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+        
+        <!-- -- footer -- -->
+        <footer class="footer f-container">
+            <ul class="social_icon">
+                <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            </ul>
+            <ul class="menu">
+                <li class="nav_menu_list_item">
+                    <a href="../trang-chu/index.html" class="nav_link font-main" >Trang Chủ</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../thi-truong/index.html" class="nav_link font-main" >Thị Trường</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../du-an/index.html" class="nav_link font-main" >Dự Án</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../huong-dan/index.html" class="nav_link font-main" >Hướng Dẫn</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../lien-he/index.html" class="nav_link font-main" >Liên Hệ</a>
+                </li>
+            </ul>
+            <p>&copy; 2023 LazyBee Đoàn Kết | Nối Gần Nhau</p>
+        </footer>
+    </div>
+    <script src="./page6.js"></script>
+    <script src="../Header-Footer/index.js"></script>
+</body>
+
+</html>

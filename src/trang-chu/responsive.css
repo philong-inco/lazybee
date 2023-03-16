@@ -1,0 +1,361 @@
+
+@media only screen and (max-width: 600px) {
+
+    .content .slide-show .text {
+        width: 90%;
+        height: 300px;
+        display: inline-block;
+        text-align: center;
+        bottom: 0;
+        left: calc((100% - 338px)/2);
+    }
+    .content .slide-show .text p{
+        font-size: 50px;
+    }
+    
+    .content .main .introduce,
+    .content .main .learn-and-play,
+    .content .main .gift-sale,
+    .content .main .combo-sale {
+        display: flex;
+        flex-direction: column;
+    }
+    .content .main .introduce .infomation,
+    .content .main .learn-and-play .infomation,
+    .content .main .gift-sale .infomation,
+    .content .main .combo-sale .infomation {
+        width: 100%;
+    }
+    .content .main .introduce .banner,
+    .content .main .learn-and-play .banner,
+    .content .main .gift-sale .banner,
+    .content .main .combo-sale .banner {
+        width: 100%;
+    }
+    .content .main .combo-sale .banner p#home-countdown {
+        font-size: 20px;
+    }
+
+
+
+    .content .main .introduce p,
+    .content .main .figure p,
+    .content .main .learn-and-play p,
+    .content .main .reservation p,
+    .content .main .gift-sale p,
+    .content .main .combo-sale p {
+        text-align: justify;
+    }
+    .content .main .figure {
+        width: 100%;
+    }
+    .content .main .figure .image-slide {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .main .figure .image-slide .slide {
+        order: 2;
+        width: 100%;
+    }
+    .content .main .figure .image-slide .image {
+        order: 1;
+    }
+    .content .main .figure .title h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .content .main .figure .title p {
+        width: 100%;
+        text-align: justify;
+    }
+    .content .main .learn-and-play .infomation {
+        order: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content .main .learn-and-play .banner {
+        order: 2;
+    }
+    .content .main .learn-and-play .infomation p#last {
+        text-align: center;
+    }
+    .content .main .learn-and-play .infomation a {
+        display: inline-block;
+        margin: 20px 0;
+    }
+
+    .content .main .gift-sale .infomation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .main .reservation .title h2,
+    .content .main .gift-sale .infomation h2,
+    .content .main .combo-sale .infomation h2 {
+        font-size: 40px;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .content .main .combo-sale .infomation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .main .combo-sale .infomation h2 {
+        margin-top: 20px;
+    }
+
+
+    .content .main .news .title span {
+        font-size: 20px;
+        margin: 20px 0 20px 0;
+    }
+    .content .main .news .list-news .item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .content .main .news .list-news .item p {
+        margin: 16px 0 5px 0;
+    }
+
+    .content .main .partner .title h2 {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .content .main .partner .title p {
+        line-height: 1.5;
+        margin: 15px 0 40px 0;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .content .main .partner .list-partner {
+        justify-content: space-evenly;
+    }
+
+    .content .main .partner .list-partner .item-partner {
+        width: 30%;
+    }
+
+
+    .content .main .join-now {
+        margin: 40px 0 20px 0;
+    }
+    .content .main .join-now .join-description {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+    .content .main .join-now .join-description span {
+        display: none;
+    }
+    .content .main .join-now .join-description h2 {
+        margin: 0;
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .content .main .join-now .join-description p {
+        margin: 15px 0 30px 0;
+        width: 60%;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .content .main .join-now .join-description a {
+        margin: 0 0 20px 0;
+    }
+
+
+    .content .main .join-now .image {
+        width: 30%;
+        bottom: 30px;
+    }
+
+    .content .resignter {
+        margin: 0;
+        padding: 20px;
+    }
+    .content .resignter .form {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .content .resignter .form h2 {
+        margin: 0;
+        width: 100%;
+        font-size: 22px;
+    }
+    .content .resignter .form p {
+        margin: 15px 0 30px 0;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+    .content .resignter .form form {
+        flex-wrap: wrap;
+    }
+    .content .resignter .form input {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+    .content .resignter .form button {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+/* Giao diện tablet */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    
+    .content .main .introduce p {
+        text-align: justify;
+        margin-right: 20px;
+    }
+    .content .main .figure .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .main .figure .title h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .content .main .figure .title p {
+        text-align: justify;
+    }
+    .content .main .figure .image-slide {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content .main .figure .image-slide .image {
+        width: 40%;
+        order: 1;
+    }
+    .content .main .figure .image-slide .slide {
+        width: 100%;
+        order: 2;
+    }
+    .content .main .learn-and-play {
+        flex-direction: column;
+    }
+    .content .main .learn-and-play .banner,
+    .content .main .learn-and-play .infomation {
+        width: 100%;
+    }
+    
+    .content .main .learn-and-play .infomation {
+        order: 1;
+    }
+    .content .main .learn-and-play .banner {
+        order: 2;
+        text-align: end;
+    }
+    .content .main .learn-and-play .banner img {
+        width: 70%;
+        margin: auto;
+    }
+
+    .content .main .gift-sale h2,
+    .content .main .combo-sale h2 {
+        font-size: 35px;
+    }
+
+
+
+    .content .main .partner .title h2 {
+        margin: 40px 0 20px 0;
+        font-size: 40px;
+    }
+    .content .main .partner .title p {
+        margin: 0 0 40px 0;
+    }
+
+
+    .content .main .partner .list-partner {
+        justify-content: space-around;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(1) {
+        order: 1;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(2) {
+        order: 2;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(3) {
+        order: 3;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(4) {
+        order: 7;
+        width: 31%;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(5) {
+        order: 8;
+        width: 31%;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(6) {
+        order: 4;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(7) {
+        order: 5;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(8) {
+        order: 6;
+    }
+    .content .main .partner .list-partner .item-partner:nth-child(9) {
+        order: 9;
+        width: 31%;
+    }
+
+
+    .content .main .join-now {
+        margin: 40px 0 20px 0;
+        padding: 20px;
+    }
+    .content .main .join-now .join-description {
+        margin: 0;
+        width: 100%;
+    }
+    .content .main .join-now .join-description h2 {
+        width: 60%;
+        font-size: 30px;
+    }
+    .content .main .join-now .join-description p {
+        width: 60%;
+    }
+    .content .main .join-now .join-description a {
+        margin-bottom: 20px;
+    }
+    .content .main .join-now .image {
+        width: 30%;
+        bottom: 40px;
+    }
+    
+    .content .main .combo-sale .banner p#home-countdown {
+        font-size: 25px;
+    }
+    
+    .content .resignter {
+        padding: 20px;
+    }
+    .content .resignter .form {
+        margin: 0;
+        width: 100%;
+    }
+    .content .resignter .form form {
+        margin: 50px 70px 20px 70px;
+    }
+    .content .resignter .form p {
+        width: 60%;
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
+

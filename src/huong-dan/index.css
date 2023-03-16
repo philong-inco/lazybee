@@ -1,0 +1,174 @@
+/* dùng chung */
+:root {
+    --margin-main: 320px;
+    --span-slideshow: 20px;
+    --color-span-slideshow: #93f6ff;
+    --p-slideshow: 70px;
+    --color-p-slideshow: #ffffff;
+    --heading-home-red: #dd4d4d;
+    --radius-button: 7px;
+    --hover-button: #ed8a33;
+}
+@font-face {
+    font-family: "main-default";
+    src: url("../../font/RobotoSlab-VariableFont_wght.ttf");
+}
+span, p, h2, h3, a, button {
+    font-family: main-default;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #050e15;
+}
+
+.container .w-container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* hết dùng chung */
+
+.content {
+    background-color: #050e15;
+    color: #fff;
+    padding: 108px 20px 30px;
+}
+
+.lazyBee-title {
+    text-align: center;
+}
+.lazyBee-title .big-title h2 {
+    max-width: 350px;
+    margin: auto;
+}
+.lazyBee-title .big-title span {
+    color: rgba(0, 255, 255, 0.664);
+}
+
+.content .small-title {
+    padding-left: 10px;
+}
+
+.lazyBee-introduce {
+    margin-top: 60px;
+    max-width: 60%;
+}
+
+.lazyBee-introduce h2 {
+    font-size: 40px;
+    margin: 15px 0 25px;
+}
+.lazyBee-introduce p {
+    line-height: 28px;
+}
+.lazyBee-introduce p:first-child {
+    color: var(--hover-button);
+}
+
+.lazyBee-reward {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.lazyBee-reward .title-reward {
+    text-align: center;
+    font-size: 30px;
+}
+.lazyBee-reward .content-reward .box-reward p {
+    text-align: justify;
+}
+
+.content-reward {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.content-reward .box-reward {
+    background-color: #081824;
+    width: calc((100% - 30px - 30px) / 3);
+    border-radius: 10px;
+    padding: 60px 40px 40px;
+}
+.content-reward .box-reward {
+    position: relative;
+}
+.content-reward .box-reward .box-reward-logo {
+    width: 80px;
+    height: 80px;
+    background-color: #081824;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #050e15;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 20px;
+}
+.content-reward .box-reward .box-reward-logo i {
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+}
+
+.content-reward .box-reward .box-reward-content {
+    text-align: center;
+}
+.content-reward .box-reward .box-reward-content h3 {
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.content-reward .box-reward .box-reward-content p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.lazyBee-advertisement {
+    background-image: url("https://myria.com/images/globe_op.png");
+    background-repeat: no-repeat;
+    min-height: 792px;
+    background-position: 120%;
+    display: flex;
+    align-items: center;
+}
+
+.lazyBee-advertisement .advertisement-content {
+    max-width: 50%;
+}
+.lazyBee-advertisement .advertisement-content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+.lazyBee-advertisement .advertisement-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: rgba(255, 187, 0, 0.74);
+}
+.backtop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.6;
+    visibility: hidden;
+}

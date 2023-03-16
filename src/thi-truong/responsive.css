@@ -1,0 +1,71 @@
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .content .marketcap .market-list .item {
+        width: 100%;
+    }
+    .content .recently-listed .list-items .item {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .content .explore .filter {
+        display: none;
+    }
+
+    .content .explore .explore-list .item {
+        width: calc((100% - 20px)/2)
+    }
+    .content .explore .explore-list .item .all-infomation .infomation p {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+
+    .content .explore .explore-list .item .all-infomation .description-price .description img {
+        display: none;
+    }
+    .content .explore .explore-list .item .all-infomation .description-price .price .price-details span,
+    .content .explore .explore-list .item .all-infomation .description-price .description .author span {
+       font-size: 12px;
+    }
+}
+
+
+
+
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .content .marketcap .market-list .item .title p {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 1;
+    }
+    .content .recently-listed .list-items .item .title {
+        bottom: 10px;
+    }
+
+    .content .recently-listed .list-items .item .title p,
+    .content .recently-listed .list-items .item .title span {
+        line-height: 1;
+    }
+    .content .explore .explore-list .item .all-infomation .infomation p {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .content .explore .explore-list .item .all-infomation .description-price .description img {
+        display: none;
+    }
+    .content .explore .explore-list .item .all-infomation .description-price .price .price-details span,
+    .content .explore .explore-list .item .all-infomation .description-price .description .author span {
+       font-size: 12px;
+    }
+}

@@ -1,0 +1,75 @@
+/* fade in up */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.animatedFadeInUp {
+    animation: fadeInUp 1s ease-in both;
+}
+
+/* use: animatedFadeInUp */
+/* End fade in up animation */
+
+/* fade in right */
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animatedFadeInRight {
+    animation: fadeInRight 1s ease-in-out;
+}
+
+/* use:animatedFadeInRight */
+/* End fade in right animation */
+
+/* fade in left */
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animatedFadeInLeft {
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+/* use: animatedFadeInLeft */
+/* End fade in left animation */
+
+/* fade in left */
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.animatedFadeInDown {
+    animation: fadeInDown 1s ease-in both;
+}
+/* use: animatedFadeInDown */
+/* End fade in down animation */

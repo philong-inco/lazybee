@@ -1,0 +1,32 @@
+@media only screen and (max-width: 900px) {
+    .content .scale-gaming .item-gaming {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .content .bottom-content .report .form .email input {
+        width: 100%;
+    }
+    .content .bottom-content .report .form .email button {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .content .detail-block {
+        gap: 50px;
+    }
+    .content .detail-block .item-detail {
+        width: 100%;
+    }
+    .content .bottom-content {
+        flex-wrap: wrap;
+    }
+    .content .bottom-content .report {
+        width: 100%;
+    }
+    .content .scale-gaming .item-gaming {
+        width: 100%;
+        padding: 0 30px;
+    }
+}

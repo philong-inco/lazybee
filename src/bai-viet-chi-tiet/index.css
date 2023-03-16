@@ -1,0 +1,185 @@
+/* dùng chung */
+:root {
+    --margin-main: 320px;
+    --span-slideshow: 20px;
+    --color-span-slideshow: #93f6ff;
+    --p-slideshow: 70px;
+    --color-p-slideshow: #ffffff;
+    --heading-home-red: #dd4d4d;
+    --radius-button: 7px;
+    --hover-button: #ed8a33;
+}
+@font-face {
+    font-family: "main-default";
+    src: url("../../font/RobotoSlab-VariableFont_wght.ttf");
+}
+span, p, h1, h2, h3, input, a, button, b {
+    font-family: main-default;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #050e15;
+}
+
+.container .w-container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* hết dùng chung */
+
+/* css for content of page-6 */
+.content {
+    padding: 108px 20px 30px;
+}
+
+.game-detail .game-content {
+    display: flex;
+    gap: 20px;
+}
+
+.game-detail .game-content .game-description {
+    width: 68%;
+}
+
+.game-detail .game-content .slide-image-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.game-detail .game-content .slide-image-icon .slide-item {
+    width: 110px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.game-detail .game-content .slide-image-icon .slide-item.active {
+    opacity: 1;
+}
+.game-detail .game-content .game-information {
+    width: 32%;
+}
+
+.game-detail .game-content .game-information .game-information-details {
+    margin-top: 20px;
+    background: #081824;
+    color: #fff;
+    padding: 32px;
+    border-radius: 20px;
+    position: sticky;
+    top: 7.25rem;
+}
+
+.game-detail .game-content .game-information .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-detail .game-content .game-information .info-item span {
+    font-size: 18px;
+}
+
+.game-detail .game-content .game-information .info-item b {
+    padding: 7px 12px;
+    background-color: #0f2f45;
+    border-radius: 8px;
+    color: #9ac9e3;
+}
+
+.game-detail .game-content .game-information .btn-action-item {
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.game-detail .game-content .game-information .btn-action-item.twitter {
+    background-color: #1da1f2;
+}
+
+.game-detail .game-content .game-information .btn-action-item.discord {
+    background-color: #5b66f5;
+    margin-top: 10px;
+}
+
+.game-detail .game-content .game-description .description {
+    color: #fff;
+    margin-top: 30px;
+}
+.game-detail .game-content .game-description .description-detail p {
+    line-height: 24px;
+    color: #97aab5;
+    margin-top: 10px;
+}
+
+.game-detail .game-content .game-description .description-detail {
+    margin-top: 20px;
+}
+
+.game-detail .register-email {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.content .resignter {
+    width: 100%;
+    background-color: #081825;
+    border-radius: var(--radius-button);
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.content .resignter .form {
+    margin: 158px 32px;
+}
+.content .resignter .form h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 16px 0 0 0;
+}
+.content .resignter .form {
+    width: 50%;
+    text-align: center;
+}
+.content .resignter .form p {
+    color: #97aab5;
+    font-size: 16px;
+    font-weight: 50;
+    margin: 24px 0 0 0;
+    text-align: justify;
+}
+.content .resignter .form form {
+    display: flex;
+    margin: 50px 0 0 0;
+}
+.content .resignter .form input {
+    flex: 1;
+    padding: 12px 16px;
+    background-color: #081825;
+    border: 1px solid #97aab5;
+    border-radius: var(--radius-button);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #97aab5;
+}
+.content .resignter .form button {
+    margin: 0 0 0 20px;
+    background-color: #f5b941;
+    padding: 16px 24px;
+    border-radius: var(--radius-button);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.25s;
+    border: none;
+}
+.content .resignter .form button:hover {
+    background-color: var(--hover-button);
+}

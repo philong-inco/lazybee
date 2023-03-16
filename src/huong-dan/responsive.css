@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1024px) {
+    .content-reward {
+        gap: 60px 30px;
+    }
+    .content-reward .box-reward {
+        width: calc((100% - 30px) / 2);
+    }
+
+    .lazyBee-advertisement {
+        background-position: 160%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-reward .box-reward {
+        width: 100%;
+    }
+
+    .lazyBee-introduce {
+        max-width: 100%;
+    }
+
+    .lazyBee-advertisement {
+        background-position: 50%;
+    }
+
+    .lazyBee-advertisement .advertisement-content {
+        max-width: 100%;
+    }
+}

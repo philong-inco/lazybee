@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px) {
+    .lazyBee-filter .filter-title {
+        width: 0;
+    }
+    .filter-content {
+        display: none;
+    }
+    .content .lazyBee-game-list {
+        width: 100%;
+    }
+
+    .lazyBee-game-list .game-card {
+        width: calc((100% - 15px * 2) / 3);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content .big-title {
+        font-size: 28px;
+    }
+    .lazyBee-game-list .game-card {
+        width: calc((100% - 15px) / 2);
+    }
+}

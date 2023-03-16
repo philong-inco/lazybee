@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon-bee.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="../Header-Footer/index.css">
+    <link rel="stylesheet" href="./slide-animation.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../animation.css">
+    <link rel="stylesheet" href="./slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header h-container">
+
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../trang-chu/index.html">
+                        <img src="../img/logobee.png" alt="">
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_menu_list_item">
+                            <a href="../trang-chu/index.html" class="nav_link font-main active" >Trang Chủ</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../thi-truong/index.html" class="nav_link font-main" >Thị Trường</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../du-an/index.html" class="nav_link font-main" >Dự Án</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../huong-dan/index.html" class="nav_link font-main" >Hướng Dẫn</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <a href="../lien-he/index.html" class="nav_link font-main" >Liên Hệ</a>
+                        </li>
+                        <li class="nav_menu_list_item">
+                            <button class="nav__cta__btn font-main">Đăng Nhập/Đăng Ký</button>
+                        </li>
+                    </ul>
+                </div>
+    
+                <button class="nav_toggle_btn" id="nav_toggle">
+                    <i id="bx-sm" class='bx bx-menu bx-sm'></i>
+                </button>
+            </nav>
+        </header>
+        <!-- Header -->
+
+        <!-- Content -->
+        <main>
+            <div class="slide-show">
+                <div class="slide">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1" checked>
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                
+                            <div class="slide-display first">
+                                <img src="../img/banner-2-3.png" alt="banner-lazybee">
+                            </div>
+                            <div class="slide-display">
+                                <img src="../img/banner-2-4.png" alt="banner-lazybee">
+                            </div>
+                            <div class="slide-display">
+                                <img src="../img/home-banner-a.jpg" alt="banner-lazybee">
+                            </div>
+                            <div class="slide-display">
+                                <img src="../img/banner-2-4.png" alt="banner-lazybee">
+                            </div>
+                
+                
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                
+                
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn" onclick="clearAutoNextImage()"></label>
+                                <label for="radio2" class="manual-btn" onclick="clearAutoNextImage()"></label>
+                                <label for="radio3" class="manual-btn" onclick="clearAutoNextImage()"></label>
+                                <label for="radio4" class="manual-btn" onclick="clearAutoNextImage()"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="w-container">
+                    <div class="main">
+                        
+                        <!-- Nội dung landing triển khai tại đây -->
+                        <div class="introduce animatedFadeInUp">
+                            <div class="infomation">
+                                <h2>Thế giới song song BEE Poly</h2>
+                                <p class="font-main">Tham gia vào thế giới ảo dành riêng cho cộng đồng sinh viên FPT Polytechnic và tạo nên cá tính nhân vật của chính mình chỉ với
+                                    <span class="font-main">“1 click”</span>. Mở rộng vòng kết nối, trở thành bạn của nhau và cùng thành lập đội nhóm vượt qua những màn thử thách để thu về các quyền năng cho nhân vật đặc biệt của bạn.</p>
+                            </div>
+                            <div class="banner">
+                                <img src="../img/home-map-game.png" alt="lazybee-banner" class="width-img">
+                            </div>
+                        </div>
+                        <!-- 2. Giới thiệu game -->
+    
+                        <div class="figure">
+                            <div class="title">
+                                <h2>Chúng ta cùng sáng tạo, tại sao không?</h2>
+                                <p class="font-main">Cá nhân hóa giao diện nhân vật chỉ trong <span class="font-main">45 giây</span> hoặc lựa chọn các nhà thiết kế có sẵn của chúng tôi. Hơn thế nữa, những nhân vật có quyền năng có thể tham gia vào thị trường để giao dịch hoặc trao đổi.</p>
+                            </div>
+                            <div class="image-slide">
+                                <div class="slide">
+                                    <div id="carousel">
+                                        <figure id="spinner">
+                                          <img src="../img/slide-bee-1.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-2.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-3.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-4.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-5.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-6.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-7.png" alt="nhan-vat-bee">
+                                          <img src="../img/slide-bee-8.png" alt="nhan-vat-bee">
+                                        </figure>
+                                      </div>
+                                      <span style="float:left" class="ss-icon" onclick="changeImage(true)">&lt;</span>
+                                      <span style="float:right" class="ss-icon" onclick="changeImage(false)">&gt;</span>
+                                </div>
+                                <div class="image">
+                                    <img src="../img/video4.gif" alt="lazybee" class="width-img">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3. Slide show nhân vật -->
+    
+                        <div class="learn-and-play">
+                            <div class="banner">
+                                <img src="../img/home-hoc-va-choi.png" alt="lazybee" class="width-img">
+                            </div>
+                            <div class="infomation">
+                                <h2>HỌC VÀ CHƠI</h2>
+                                <p class="font-main">Thế giới có rất nhiều việc phải làm vì thế chúng ta sẽ làm cả hai cùng lúc.</p>
+                                <p class="font-main">Có rất nhiều người đang chờ bạn ở đó, hãy kết nối và trở thành bạn bè. Thành lập đội nhóm cùng nhau vượt qua các màn thử thách theo từng môn học. Tại phòng thử thách chúng ta cùng nhau trải qua các bài tập nhỏ được thiết kế nâng cao kỹ năng làm việc nhóm, ôn lại kiến thức và <span class="font-main">“làm đầy bình năng lượng tích cực”</span> được sử dụng để đối lấy quyền năng.</p>
+                                <p id="last">Bằng cách nào?</p>
+                                <a href="#" class="font-main">Tìm hiểu nó</a>
+                            </div>
+                        </div>
+                        <!-- 4. Trình bày giá trị cốt lõi game -->
+    
+                        <div class="reservation">
+                            <div class="title">
+                                <h2>Bạn có thể là thành viên thứ #1000</h2>
+                            </div>
+                            <div class="image">
+                                <img src="../img/video1.gif" alt="lazybee">
+                            </div>
+                        </div>
+                        <!-- 5. Thành viên đặt chỗ tham gia trước -->
+    
+                        <div class="gift-sale">
+                            <div class="infomation">
+                                <h2>Lấy nhân vật đặc biệt <br> với 1 click</h2>
+                                <a href="#" class="font-main">Lấy ngay</a>
+                            </div>
+                            <div class="banner">
+                                <img src="../img/galaxy-gift.gif" alt="lazybee" class="width-img">
+                                <img src="../img/home-gift-sale.png" alt="lazybee" class="topimg width-img">
+                            </div>
+                        </div>
+                        <!-- 6. Quà tặng thẻ nhân vật -->
+    
+                        <div class="combo-sale">
+                            <div class="banner">
+                                <img src="../img/home-up-sale.png" alt="lazybee" class="width-img">
+                                <!-- đếm ngược tại đây -->
+                                <p id="home-countdown" class="font-main"></p>
+                            </div>
+                            <div class="infomation">
+                            <h2>Thời gian có thể chỉ tính bằng giây</h2>
+                            <a href="#" class="font-main">Nhận tất cả</a>
+                            </div>
+                        </div>
+                        <!-- 7. Chốt sale + time đếm ngược -->
+    
+    
+                        <!-- Nội dung landing triển khai tại đây -->
+            
+                        <div class="news">
+                            <div class="title">
+                                <span class="font-main">Tin tức & Hoạt động</span>
+                                <a href="#" class="font-main">Đọc thêm</a>
+                            </div>
+                            <div class="list-news">
+                                <div class="item">
+                                    <a href="#" class="font-main">
+                                        <img src="../img/home-news-1.jpg" alt="lazybee" class="width-img">
+                                        <p class="font-main">Sự kiện đấu giá quyền năng nhân vật</p>
+                                        <span class="font-main">Chi tiết</span>
+                                    </a>
+                                </div>
+                                <!-- News item 1 -->
+                                <div class="item">
+                                    <a href="#" class="font-main">
+                                        <img src="../img/home-news-2.jpg" alt="lazybee" class="width-img">
+                                        <p class="font-main">"7 bí kíp" thành lập đội vượt màn thử thách giành Top 1 sever</p>
+                                        <span class="font-main">Chi tiết</span>
+                                    </a>
+                                </div>
+                                <!-- News item 2 -->
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="../img/home-news-3.jpg" alt="lazybee" class="width-img">
+                                        <p class="font-main">Nhà vô địch cuộc thi "Quyền năng hội tụ" chia sẻ về quá trình hình thành ý tưởng đưa bản sắc dân tộc vào thế giới song song</p>
+                                        <span class="font-main">Chi tiết</span>
+                                    </a>
+                                </div>
+                                <!-- News item 3 -->
+                            </div>
+                        </div>
+                        <!-- End news -->
+                        <div class="partner">
+                            <div class="title">
+                                <h2 class="font-main">Thanks for ALL!</h2>
+                                <p class="font-main">LazyBee đã được xây dựng bởi một đội ngũ gồm hơn 150 người, thống nhất với tầm nhìn chung về cách mạng hóa trò chơi bằng công nghệ chuỗi khối.</p>
+                            </div>
+                            <div class="list-partner">
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-1.avif" alt="partner">
+                                </div>
+                                <!-- partner 1 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-2.avif" alt="partner">
+                                </div>
+                                <!-- partner 2 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-3.avif" alt="partner">
+                                </div>
+                                <!-- partner 3 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-4.avif" alt="partner">
+                                </div>
+                                <!-- partner 4 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-5.avif" alt="partner">
+                                </div>
+                                <!-- partner 5 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-6.avif" alt="partner">
+                                </div>
+                                <!-- partner 6 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-7.avif" alt="partner">
+                                </div>
+                                <!-- partner 7 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-8.avif" alt="partner">
+                                </div>
+                                <!-- partner 8 -->
+                                <div class="item-partner">
+                                    <img src="../img/home-partner-9.avif" alt="partner">
+                                </div>
+                                <!-- partner 9 -->
+                                
+                            </div>
+                        </div>
+                        <!-- End partner -->
+            
+            
+                        <div class="join-now">
+                            <div class="join-description">
+                                <span class="font-main">Nhân vật bí ẩn sắp ra mắt</span>
+                                <h2 class="font-main">Ngẫu nhiên trao cho 1/1000 thành viên đầu tiên</h2>
+                                <p class="font-main">Nhân vật duy nhất 1 năm 1 lần được trao ngẫu nhiên cho một thành viên trong số 1000 người đầu tiên tham gia. Chúng tôi ghi nhận sự tham gia sớm của bạn!</p>
+                                <a href="#" class="btn-hover font-main">ĐĂNG KÝ NGAY</a>
+                            </div>
+                            <div class="image">
+                                <img src="../img/home-joinnow-e.png" alt="lazybee-join-now" class="width-img">
+                            </div>
+                        </div>
+                        <!-- End join now -->
+                        <div class="resignter">
+                            <div class="form">
+                                <h2 class="font-main">Trở thành nhân vật #1000</h2>
+                                <p class="font-main">Để lại email ngay lúc này, trước khi đặc quyền dành cho thành viên đăng ký sớm kết thúc.</p>
+                                <form>
+                                    <input class="font-main" type="email" name="email" placeholder="Email của bạn" required>
+                                    <button class="font-main btn-hover" type="submit">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End resignter -->
+                    </div> 
+                </div>   
+            </div>
+        </main>
+            
+        <!-- Content -->
+
+        <!-- Footer -->
+        <footer class="footer f-container">
+            <ul class="social_icon">
+                <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            </ul>
+            <ul class="menu">
+                <li class="nav_menu_list_item">
+                    <a href="../trang-chu/index.html" class="nav_link font-main" >Trang Chủ</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../thi-truong/index.html" class="nav_link font-main" >Thị Trường</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../du-an/index.html" class="nav_link font-main" >Dự Án</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../huong-dan/index.html" class="nav_link font-main" >Hướng Dẫn</a>
+                </li>
+                <li class="nav_menu_list_item">
+                    <a href="../lien-he/index.html" class="nav_link font-main" >Liên Hệ</a>
+                </li>
+            </ul>
+            <p class="font-main">&copy; 2023 LazyBee Đoàn Kết | Nối Gần Nhau</p>
+        </footer>
+        <!-- Footer -->
+    </div>
+    <div class="backtop" onclick="scrollToTop()" id="backtop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    
+
+    <script>
+        /// back to top: 
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+        const backToTop = document.getElementById("backtop");
+        window.onscroll = function()
+        {
+            if(window.pageYOffset >= 100)
+            {
+                backToTop.style.visibility="visible";
+            }else {
+                backToTop.style.visibility="hidden";
+            }
+        };
+    </script>
+    <script src="../Header-Footer/index.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
